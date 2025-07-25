@@ -1280,8 +1280,8 @@ class SpectrumOneD:
 
         """
 
-        assert np.isfinite(airmass), "airmass has to be finite."
-        self.airmass = airmass
+        assert np.isfinite(float(airmass)), "airmass has to be finite."
+        self.airmass = float(airmass)
 
     def remove_airmass(self):
         """
