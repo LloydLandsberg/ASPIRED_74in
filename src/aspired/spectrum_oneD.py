@@ -1304,7 +1304,7 @@ class SpectrumOneD:
 
         """
 
-        assert np.isfinite(seeing), "airmass has to be finite."
+        # assert np.isfinite(seeing), "airmass has to be finite."
         self.seeing = seeing
 
     def remove_seeing(self):
